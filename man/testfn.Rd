@@ -20,8 +20,6 @@ testfn(grain = 1, ncores = 2)
   \item{ncores}{integer}
 }
 
-}
-
 \value{
 
 Meaningless sum of probabilities gk
