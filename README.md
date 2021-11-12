@@ -10,3 +10,8 @@ From linux command prompt:
 R -e "devtools::install_github('MurrayEfford/leaktest')"
 R -d "valgrind --tool=memcheck --track-origins=yes --leak-check=full" --vanilla -e "leaktest::testfn()"
 ```
+
+To switch back end from TBB default to tinythread, call testfn with tiny = TRUE:
+```
+R -d "valgrind --tool=memcheck --track-origins=yes --leak-check=full" --vanilla -e "leaktest::testfn(tiny=TRUE)"
+```
