@@ -8,7 +8,5 @@ and the output is not interpretable (it remains constant at 237.7695).
 From linux command prompt:
 ```
 R -e "devtools::install_github('MurrayEfford/leaktest')"
-
-R -d "valgrind --tool=memcheck --track-origins=yes --leak-check=full" \ 
-    --vanilla -e "leaktest::testfn()"
+R -d "valgrind --tool=memcheck --track-origins=yes --leak-check=full" --vanilla -e "leaktest::testfn()"
 ```
