@@ -5,20 +5,19 @@
 
 \description{
 
-Calls C++ function makegkPointcpp
+Calls C++ function makegkPointcpp with arbitrary (fake) data
 
 }
 
 \usage{
 
-testfn(grain = 1, ncores = 2, parameters = c(0.5, 20))
+testfn(grain = 1, ncores = 2)
 
 }
 
 \arguments{
   \item{grain}{integer}
   \item{ncores}{integer}
-  \item{parameters}{numeric vector length 2)
 }
 
 }

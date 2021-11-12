@@ -1,7 +1,8 @@
-testfn <- function(grain = 1, ncores = 2, parameters = c(0.5, 20)) 
+testfn <- function(grain = 1, ncores = 2) 
 {
+    # fake some data
     distmat2 <- as.matrix(dist(matrix(seq(20,1000,20), ncol=2)))
-    parametermatrix <- matrix(parameters, nrow = 1)
+    parametermatrix <- matrix(c(0.5, 20), nrow = 1)
     gk <- makegkPointcpp (
         as.integer(grain), 
         as.integer(ncores),
