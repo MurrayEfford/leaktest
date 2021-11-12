@@ -10,3 +10,4 @@ Authors@R: person("Murray", "Efford", email = "murray.efford@otago.ac.nz", role 
 Description: Test package for memory leaks 
 License: GPL (>= 2)
 SystemRequirements: GNU make
+URL: https://github.com/murrayefford/leaktest
