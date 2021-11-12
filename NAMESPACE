@@ -1,0 +1,7 @@
+importFrom (Rcpp, "evalCpp")
+importFrom (RcppParallel, "RcppParallelLibs", "setThreadOptions", "defaultNumThreads")
+export (testfn)
+
+useDynLib (leaktest)
+## DEBUGGING ONLY (cpp functions not documented)
+exportPattern("*cpp")

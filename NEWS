@@ -1,0 +1,50 @@
+Changes in version 0.0.13 (2021-11-12 1600)
+
+    o   don't use secr
+
+Changes in version 0.0.12 (2021-11-12 1543)
+
+    o   remove 'detectfn', tidy
+
+Changes in version 0.0.11 (2021-11-12 1516)
+
+    o   restore pass by reference to C++
+    o   edits to simplify C++ code, remove 'const'
+    o   return only NumericVector
+    
+Changes in version 0.0.10 (2021-11-12 1440)
+
+    o   do not pass by reference to C++
+
+Changes in version 0.0.9 (2021-11-12 1440)
+
+    o   suppress thread-level modification of output vector
+
+Changes in version 0.0.8 (2021-11-12 1433)
+
+    o   declare integer variables outside for()
+    o   drop hk calculation
+
+Changes in version 0.0.6 (2021-11-12 1420)
+
+    o   do not treat fields in struct Hckm as const
+
+Changes in version 0.0.5 (2021-11-12 1404)
+
+    o   explicit Rcpp::, RcppParallel:: refs
+    
+Changes in version 0.0.4 (2021-11-12 1347)
+
+    o   remove 'using namespace std'
+    
+Changes in version 0.0.3 (2021-11-12 1307)
+
+    o   minor edits; removed miscparm
+    
+Changes in version 0.0.2 (2021-11-12 1159)
+
+    o   suppressed Boost
+    
+Changes in version 0.0.1 (2021-11-12 1114)
+
+    o   suppressed Rcpp::stop() in C++
