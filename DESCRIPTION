@@ -1,11 +1,11 @@
 Package: leaktest
 Type: Package
 Title: Test
-Version: 0.0.13
+Version: 0.0.14
 Depends: R (>= 3.5.0)
 Imports: Rcpp (>= 0.12.14), RcppParallel (>= 5.1.1)
 LinkingTo: Rcpp, RcppParallel
-Date: 2021-11-12
+Date: 2021-11-13
 Authors@R: person("Murray", "Efford", email = "murray.efford@otago.ac.nz", role = c("aut","cre"), comment = c(ORCID = "0000-0001-5231-5184"))
 Description: Test package for memory leaks 
 License: GPL (>= 2)
