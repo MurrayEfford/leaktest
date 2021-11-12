@@ -1,5 +1,6 @@
 testfn <- function(grain = 1, ncores = 2) 
 {
+    message ("Package leaktest ", packageVersion('leaktest'))
     # fake some data
     distmat2 <- as.matrix(dist(matrix(seq(20,1000,20), ncol=2)))
     parametermatrix <- matrix(c(0.5, 20), nrow = 1)
